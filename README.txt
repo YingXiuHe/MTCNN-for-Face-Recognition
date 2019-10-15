@@ -1,4 +1,4 @@
-# Author: 何秀颖 
+# Author: HXY
 # e-mail: yingxh1995@aliyun.com
 
 MTCNN人脸检测 + face_recognition + KNN人脸识别 
@@ -44,13 +44,13 @@ pickle
 
 2.测试识别 (这里需要注意几个参数的设定，能一定程度提升人脸识别的精度： model='large'; num_jitters(人脸re_sample的次数))
   1.单张照片人脸识别： 
-	代码： recognize_faces_pic.py [初始化模型加载比较耗时间 40s左右，加载后识别速度稳定]
+	代码： recognize_faces_pic.py
 	      test_code/mtcnn_recognize_faces_pic.py [调用mtcnn检测模型，人脸识别效果更优]
   2.实时视频流人脸识别：
 	代码： test_code/mtcnn_recognize_video.py 
 
 
 
-# 2019-8-27 增加了人脸对齐操作的代码，一定程度上尝试提升人脸识别的精确度
+# 增加了人脸对齐操作的代码，一定程度上尝试提升人脸识别的精确度
 代码为： /test_code/batchfaces_alignment_dlib.py  
 
