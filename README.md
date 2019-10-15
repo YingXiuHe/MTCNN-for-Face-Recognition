@@ -1,4 +1,5 @@
 # MTCNN-for-Face-Recognition
+# CSDN博客地址：https://blog.csdn.net/weixin_38106878/article/details/101286761
 
 MTCNN人脸检测 + face_recognition + KNN人脸识别 
 (face_recognition模块的人脸定位采用dlib模块，本project采用mtcnn对其进行替换)
