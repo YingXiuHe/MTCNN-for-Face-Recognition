@@ -1,0 +1,10 @@
+cmake
+numpy
+easydict
+opencv-python
+tensorflow-gpu==1.12
+keras==2.1.3
+scikit-learn
+dlib
+face_recognition
+

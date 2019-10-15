@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/lxz/hxy/project/mtcnn_tf-master/tmp/model/onet/onet-30"
+all_model_checkpoint_paths: "/home/lxz/hxy/project/mtcnn_tf-master/tmp/model/onet/onet-30"
