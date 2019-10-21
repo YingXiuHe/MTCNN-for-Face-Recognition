@@ -76,9 +76,7 @@ def face_aligniment(file_path, save_path):
         cv2.destroyAllWindows()
 
 
-'''
-对于侧脸：人脸定位效果不是很好-可调用深度模型人脸检测
-'''
+
 if __name__ == '__main__':
     start = time.time()
     logset()
